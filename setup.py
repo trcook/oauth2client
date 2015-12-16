@@ -32,6 +32,8 @@ from setuptools import setup
 
 packages = [
     'oauth2client',
+    'oauth2client.contrib',
+    'oauth2client.contrib.django_util'
 ]
 
 install_requires = [
